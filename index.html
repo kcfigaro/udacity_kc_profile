@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>KC's Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <picture>
+          <!-- <source media="(min-width: 501px)" srcset="images/the_K-100_small_1x.jpg" /> -->
+          <source media="(max-width: 500px)" srcset="images/the_K-65_small.jpg" />
+          <img class="title-logo" src="images/the_K-100_small_1x.jpg" alt="kc logo">
+        </picture>
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super text-thin">KC Chang</h1>
+        <h4>Cloud System engineer</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <picture>
+          <source media="(max-width: 450px)" srcset="images/earth-400_medium_2x.jpg" />
+          <img src="images/earth.jpg" alt="KC Portfolio Page" class="img-responsive img-area">
+        </picture>
+      </div>
+    </div>
+    <article>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Portfolio</h2>
+        </div>
+      </div>
+      <div class="row text-area">
+        <div class="col-md-4">
+          <picture>
+            <source media="(max-width: 400px)" srcset="http://placekitten.com/200/150" />
+            <img class="img-responsive img-area" src="http://placekitten.com/300/150" alt="KC Project" data-toggle="modal" data-target="#project1">
+          <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project1">
+            Project Modal
+          </button> -->
+        </picture>
+        <h3 class="text-uppercase">Project</h3>
+        <p>https://kr.linkedin.com/in/kyungcheol</p>
+        </div>
+        <div class="col-md-4">
+          <picture>
+            <source media="(max-width: 400px)" srcset="http://placebear.com/200/150" />
+            <img class="img-responsive img-area" src="http://placebear.com/300/150" alt="KC favorite" data-toggle="modal" data-target="#favorite1">
+            <!-- <a data-flip-widget="mag" href="https://flipboard.com/@changkyungcheol/my-maz-3q8g0sjry">View my Favorite Magazine.</a> -->
+          </picture>
+          <h3 class="text-uppercase">Favorite</h3>
+          <p>https://flipboard.com/@changkyungcheol</p>
+        </div>
+        <div class="col-md-4">
+          <picture>
+            <source media="(max-width: 400px)" srcset="http://placekitten.com/201/151" />
+            <img class="img-responsive img-area" src="http://placekitten.com/301/151" alt="KC contact" data-toggle="modal" data-target="#contact1">
+          </picture>
+          <h3 class="text-uppercase">Contact Info</h3>
+          <p>https://www.facebook.com/chang.kyungcheol</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Modal -->
+  <!-- Project Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel1">Project Page</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/profile-300_medium_1x.jpg" alt="kc profile image">
+                  <strong>
+                  Current:
+                  <br>
+                  Cloud Solution Architect / NC Soft
+                  </strong>
+                  <br>
+                  Previous:
+                  <br>
+                  Cloud Computing Engineer, T-academy Tech Trainer / SK Planet
+                  <br>
+                  Software Engineer of Cloud Computing Service / KT
+                  <br>
+                  <a href="https://kr.linkedin.com/in/kyungcheol" target="_blank">
+                  KC Linkedin
+                  </a>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- About Modal -->
+  <div class="modal fade" id="contact1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel2">Contact Info</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/casual_profile-300_medium_1x.jpg" alt="kc casual profile image">
+                  <a href="https://www.facebook.com/chang.kyungcheol" target="_blank">
+                  KC Facebook
+                  </a>
+                  <br>
+                  <em>Email: kcfigaro@gmail.com</em>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Favorite Modal   -->
+  <div class="modal fade" id="favorite1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel3">Favorite Page</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/saturn-300_medium_1x.jpg" alt="kc favorite image">
+                  <a href="https://flipboard.com/@changkyungcheol" target="_blank">
+                  KC Flipboard
+                  </a>
+                  <br>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</body>
+</html>
