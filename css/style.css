@@ -1,0 +1,46 @@
+.text-area {
+  text-align: left;
+}
+
+@media only screen and (min-width: 1000px) {
+  .text-area {
+    text-align: center;
+  }
+  .img-area {
+    margin: 0 auto;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #7C7877;
+  font-weight: 300;
+}
+
+.text-muted {
+  color: #D9D4CF;
+  /*font-weight: 200;*/
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+  color: #ABD0CE;
+  font-weight: 300;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+hr {
+  height: 3px;
+  background-color: #D9D4CF;
+}
+
+h4 {
+  color: #7C7877;
+}
