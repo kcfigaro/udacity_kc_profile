@@ -6,6 +6,7 @@
   .text-area {
     text-align: center;
   }
+
   .img-area {
     margin: 0 auto;
   }
@@ -13,12 +14,12 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #7C7877;
+  color: #7c7877;
   font-weight: 300;
 }
 
 .text-muted {
-  color: #D9D4CF;
+  color: #d9d4cf;
   /*font-weight: 200;*/
 }
 
@@ -28,7 +29,7 @@ body {
 
 .title-super {
   font-size: 60px;
-  color: #ABD0CE;
+  color: #abd0ce;
   font-weight: 300;
 }
 
@@ -38,9 +39,9 @@ body {
 
 hr {
   height: 3px;
-  background-color: #D9D4CF;
+  background-color: #d9d4cf;
 }
 
 h4 {
-  color: #7C7877;
+  color: #7c7877;
 }
